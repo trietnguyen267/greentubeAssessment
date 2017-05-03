@@ -1,6 +1,28 @@
 # greentubeAssessment
 automation task 
-For running test with Visual Studio Code, please add this launch.json settings
+
+Output logs:
+  Triet tests
+Test begin
+------------------------------------------------
+    ✓ Open and login GameTwist (18070ms)
+    ✓ Go to Slots (16073ms)
+    ✓ Go to Bingo (2315ms)
+    ✓ Go to Casino (2158ms)
+    ✓ Go to Poker (2363ms)
+    ✓ Search for Slots (8300ms)
+    ✓ Change language (6667ms)
+    ✓ logout (6459ms)
+------------------------------------------------
+Test finished
+
+
+1. Required modules:
+chromedriver 2.29
+mocha 3.3
+selenium-webdriver 3.4
+
+2. For running test with Visual Studio Code, please add this launch.json settings
 
 {
     // Use IntelliSense to learn about possible Node.js debug attributes.
