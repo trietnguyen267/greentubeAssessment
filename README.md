@@ -22,6 +22,8 @@ chromedriver 2.29
 mocha 3.3
 selenium-webdriver 3.4
 
+*modules installed locally --save
+
 2. For running test with Visual Studio Code, please add this launch.json settings
 
 {
